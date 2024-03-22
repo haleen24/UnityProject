@@ -1,0 +1,40 @@
+{
+  "scenes": [
+    {
+      "id": 0,
+      "text": "IT IS LONG AAAAAA PRESS SPACE TO SKIP IT:\n AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+      "selectionIds": [],
+      "talker": false
+    },
+    {
+      "id": 1,
+      "text": "There will be 4 lines in one dialogue. It is the first one",
+      "selectionIds": [
+        2
+      ],
+      "talker": false
+    },
+    {
+      "id": 2,
+      "text": "The second line. Testing",
+      "selectionIds": [
+        3
+      ],
+      "talker": false
+    },
+    {
+      "id": 3,
+      "text": "This is the 3d one so i hope u are not bored",
+      "selectionIds": [
+        4
+      ],
+      "talker": false
+    },
+    {
+      "id": 4,
+      "text": "Max size in one scene check:\naaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "selectionIds": [],
+      "talker": false
+    }
+  ]
+}

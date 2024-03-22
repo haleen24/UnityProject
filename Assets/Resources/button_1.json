@@ -1,0 +1,81 @@
+{
+  "scenes": [
+    {
+      "id": 0,
+      "text": "It is the simplest first test without choice\nSome tip: each new branch of dialogues started with special index that should be placed in the editor \"list of start ids\"",
+      "selectionIds": [],
+      "talker": false
+    },
+    {
+      "id": 1,
+      "text": "Second dialogue triggered. \nNow i will tell u how it works",
+      "selectionIds": [
+        -1,
+        2
+      ],
+      "talker": false
+    },
+    {
+      "id": 2,
+      "text": "Ok, let's go",
+      "selectionIds": [
+        3
+      ],
+      "talker": true
+    },
+    {
+      "id": 3,
+      "text": "So, there are supposed to be a json file with all contents of dialogues for each object\n Every message has own parameters: id, text, selectionIds",
+      "selectionIds": [
+        4
+      ],
+      "talker": false
+    },
+    {
+      "id": 4,
+      "text": "id is responsible for uniqueness of messages. It is okay if different objects which have dialogues have matching ids, but they should be unique among a specific object",
+      "selectionIds": [
+        5
+      ],
+      "talker": false
+    },
+    {
+      "id": 5,
+      "text": "text - it is the simplest part of dialogue. Just text that u see right now",
+      "selectionIds": [
+        6
+      ],
+      "talker": false
+    },
+    {
+      "id": 6,
+      "text": "selectionIds - it is an array with all ids of scenes that can be after this message\nIf this array is empty then it is the end of current dialogue\nIf there is only one id it just switch u to next scene\nIf there are several ids it will give a choice",
+      "selectionIds": [
+        7
+      ],
+      "talker": false
+    },
+    {
+      "id": 7,
+      "text": "In case of choice, firstly, u will say that u have chose",
+      "selectionIds": [
+        8
+      ],
+      "talker": false
+    },
+    {
+      "id": 8,
+      "text": "U can use selectionIds in different ways. For example u can put [-1, id] to create a single button with next id = $id$",
+      "selectionIds": [
+        9
+      ],
+      "talker": false
+    },
+    {
+      "id": 9,
+      "text": "And last thing, this selection works on indexes, but it can be easily replaced by string or something, just replace list of scenes on dictonary of special type\nThat is the end",
+      "selectionIds": [],
+      "talker": false
+    }
+  ]
+}

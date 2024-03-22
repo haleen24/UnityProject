@@ -1,0 +1,137 @@
+{
+  "scenes": [
+    {
+      "id": 0,
+      "text": "Hello, it test that checks selection\nI have some questions for u",
+      "selectionIds": [
+        1
+      ],
+      "talker": false
+    },
+    {
+      "id": 1,
+      "text": "Which of the suggested colors do you like most?\nGreen, Black, White, Yellow, Blue.",
+      "selectionIds": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "talker": false
+    },
+    {
+      "id": 2,
+      "text": "Green",
+      "selectionIds": [
+        7
+      ],
+      "talker": true
+    },
+    {
+      "id": 3,
+      "text": "Black",
+      "talker": true,
+      "selectionIds": [
+        7
+      ]
+    },
+    {
+      "id": 4,
+      "text": "White",
+      "talker": true,
+      "selectionIds": [
+        7
+      ]
+    },
+    {
+      "id": 5,
+      "text": "Yellow",
+      "talker": true,
+      "selectionIds": [
+        7
+      ]
+    },
+    {
+      "id": 6,
+      "text": "Blue",
+      "talker": true,
+      "selectionIds": [
+        7
+      ]
+    },
+    {
+      "id": 7,
+      "text": "Good one, you have a great taste",
+      "talker": false,
+      "selectionIds": [
+        8
+      ]
+    },
+    {
+      "id": 8,
+      "text": "Next question: Pizza or Sushi?",
+      "talker": false,
+      "selectionIds": [
+        9,
+        10
+      ]
+    },
+    {
+      "id": 9,
+      "text": "obviously, pizza",
+      "talker": true,
+      "selectionIds": [
+        11
+      ]
+    },
+    {
+      "id": 10,
+      "text": "I'm rather like sushi",
+      "talker": true,
+      "selectionIds": [
+        12
+      ]
+    },
+    {
+      "id": 11,
+      "text": "Pizza it is delicious food",
+      "talker": false,
+      "selectionIds": [
+        13
+      ]
+    },
+    {
+      "id": 12,
+      "text": "I also kinda like them",
+      "talker": false,
+      "selectionIds": [
+        13
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Do u want to repeat this conversation?",
+      "talker": false,
+      "selectionIds": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": 14,
+      "text": "Yeah let's do it",
+      "talker": true,
+      "selectionIds": [
+        0
+      ]
+    },
+    {
+      "id": 15,
+      "text": "No, thanks",
+      "talker": true,
+      "selectionIds": [
+      ]
+    }
+  ]
+}
